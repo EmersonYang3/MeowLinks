@@ -49,7 +49,7 @@ const utilities = [
 function routeUtility(utilityName: string) {
   switch (utilityName) {
     case 'Url Shortener':
-      router.push('/')
+      router.push('/shortener')
       break
     case 'Url To QR Code':
       router.push('/qrcode')

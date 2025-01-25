@@ -1,7 +1,7 @@
-<script setup lang="ts">
-import UrlShortner from '../components/UrlShortener.vue'
-</script>
-
 <template>
-  <UrlShortner />
+  <TheUtilities />
 </template>
+
+<script setup lang="ts">
+import TheUtilities from '@/components/TheUtilities.vue'
+</script>

@@ -3,7 +3,7 @@
     <div class="container mx-auto flex justify-between items-center">
       <button
         class="flex items-center gap-2 btn btn-ghost hover:scale-105 transition-transform"
-        @click="routeAll"
+        @click="routeHome"
         aria-label="Go to all links"
       >
         <img src="../../public/favicon.ico" class="w-8 h-8" alt="MeowLinks logo" />
@@ -13,7 +13,7 @@
       <div class="flex space-x-2">
         <button
           class="btn btn-ghost hover:scale-105 transition-transform"
-          @click="routeToHome"
+          @click="routeToShortener"
           aria-label="Go to link shortener"
         >
           <span class="hidden sm:inline">Shorten</span>
@@ -46,12 +46,12 @@ import { LinkIcon, QrCodeIcon, ChartBarDecreasingIcon } from 'lucide-vue-next'
 
 const router = useRouter()
 
-function routeAll() {
-  router.push('/all')
+function routeHome() {
+  router.push('/')
 }
 
-function routeToHome() {
-  router.push('/')
+function routeToShortener() {
+  router.push('/shortener')
 }
 
 function routeToQrCodes() {
