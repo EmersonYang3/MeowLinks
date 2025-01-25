@@ -1,5 +1,8 @@
 <template>
-  <div class="flex flex-col justify-center items-center min-h-screen pt-16 pb-8 px-4">
+  <div
+    class="flex flex-col justify-center items-center min-h-screen pb-8 px-4"
+    :class="{ 'pt-24': state.qrCode }"
+  >
     <form
       @submit.prevent="generateQRCode($event)"
       class="w-full max-w-md p-6 border border-white rounded-lg shadow-xl flex flex-col gap-10"
