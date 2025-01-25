@@ -11,8 +11,6 @@ const router = createRouter({
       path: '/',
       name: 'home',
       component: HomeView,
-      // Conversation with Copilot
-      
     },
     {
       path: '/shortener',
