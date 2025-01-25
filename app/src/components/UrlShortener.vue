@@ -129,6 +129,9 @@ function ShortenURL(url: string) {
     data.append('block-bots', Options.blockBots.toString())
   }
 
+  const $toast = useToast()
+  $toast.success('Sending Request...')
+
   axios
     .post(shortenApi, data, {
       headers: {
