@@ -12,6 +12,8 @@
 [Inspiration](#-inspiration) • [Features](#-features) • [Getting Started](#-getting-started) • [Tech Stack](#️-tech-stack) • [Releases](#-releases) • [Roadmap](#️-roadmap)
 </div>
 
+## DEMO 
+- https://meowlinks.netlify.app
 
 ## ✨ Inspiration
 I was tired of going to multiple websites just to shorten links, convert links to QR codes, and so on. Many of these sites were cluttered with ads and distractions, making the process frustrating. So, I created MeowLinks to bring all these utilities together in one clean, minimalist app that was also responsive for mobile devices!
